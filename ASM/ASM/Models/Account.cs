@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -18,7 +19,10 @@ namespace ASM.Models
             this.Role = Role.Student;
         }
         public long Id { get; set; }
+        [Required]
         public string UserName { get; set; }
+        [Required]
+
         public string Password { get; set; }
         public string Salt { get; set; }
         public DateTime CreatedAt { get; set; }

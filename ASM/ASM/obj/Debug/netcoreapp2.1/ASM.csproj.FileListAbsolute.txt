@@ -32,11 +32,6 @@ D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.V
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.dll
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.pdb
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.csproj.CopyComplete
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Create.g.cshtml.cs
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Delete.g.cshtml.cs
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Details.g.cshtml.cs
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Edit.g.cshtml.cs
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Index.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Marks\Create.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Marks\Delete.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Marks\Details.g.cshtml.cs
@@ -47,4 +42,9 @@ D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Details.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Edit.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Index.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Create.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Delete.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Details.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Edit.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Index.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.csprojAssemblyReference.cache

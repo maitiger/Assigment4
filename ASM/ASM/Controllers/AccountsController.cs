@@ -54,7 +54,7 @@ namespace ASM.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("UserName,Password,Salt,Role")] Account account)
+        public async Task<IActionResult> Create([Bind("UserName,Password")] Account account)
         {
             if (ModelState.IsValid)
             {

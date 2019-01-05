@@ -10,6 +10,8 @@
     <Compile Remove="Migrations\20190104061433_test1.Designer.cs" />
     <Compile Remove="Migrations\20190104061706_test1.cs" />
     <Compile Remove="Migrations\20190104061706_test1.Designer.cs" />
+    <Compile Remove="Migrations\20190105143012_123.cs" />
+    <Compile Remove="Migrations\20190105143012_123.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="Midle\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

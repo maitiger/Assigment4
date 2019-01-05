@@ -10,25 +10,25 @@ using ASM.Models;
 
 namespace ASM.Controllers
 {
-    [Route("api/AccountAPI")]
+    [Route("api/AccountApi")]
     [ApiController]
-    public class AccountAPI : ControllerBase
+    public class AccountApi : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
-        public AccountAPI(ApplicationDbContext context)
+        public AccountApi(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/AccountAPI
+        // GET: api/AccountApi
         [HttpGet]
         public IEnumerable<Account> GetAccount()
         {
             return _context.Account;
         }
 
-        // GET: api/AccountAPI/5
+        // GET: api/AccountApi/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetAccount([FromRoute] long id)
         {
@@ -47,7 +47,7 @@ namespace ASM.Controllers
             return Ok(account);
         }
 
-        // PUT: api/AccountAPI/5
+        // PUT: api/AccountApi/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAccount([FromRoute] long id, [FromBody] Account account)
         {
@@ -82,7 +82,7 @@ namespace ASM.Controllers
             return NoContent();
         }
 
-        // POST: api/AccountAPI
+        // POST: api/AccountApi
         [HttpPost]
         public async Task<IActionResult> PostAccount([FromBody] Account account)
         {
@@ -97,7 +97,7 @@ namespace ASM.Controllers
             return CreatedAtAction("GetAccount", new { id = account.Id }, account);
         }
 
-        // DELETE: api/AccountAPI/5
+        // DELETE: api/AccountApi/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAccount([FromRoute] long id)
         {
