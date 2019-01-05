@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClientEAP.Enity
+namespace ClientApp.Enity
 {
     class Token
     {
+        private string _token;
+
+        public string token { get => _token; set => _token = value; }
     }
 }

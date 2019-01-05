@@ -1,14 +1,26 @@
 ﻿<Page
-    x:Class="ClientEAP.Views.EditAccount_Student"
+    x:Class="ClientApp.Views.EditAccount_Student"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:ClientEAP.Views"
+    xmlns:local="using:ClientApp.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <!--<StackPanel x:Name="logout" Visibility="Collapsed">
+            <SymbolIcon Symbol="Accept" VerticalAlignment="Center" Margin="0,100,0,0"/>
+            <TextBlock Text="Successful login" HorizontalAlignment="Center" Margin="0,15" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Content="Music" Margin="20" Click="Go_Music"/>
+                <Button Content="Upload Music" Margin="20" Click="Go_UploadMusic"/>
+                <Button Content="Load Information" Margin="20" Click="Go_LoadInfor"/>
+                <Button Content="Logout" Click="Button_Click" Margin="20"/>
+            </StackPanel>-->
 
+    
+      
+       
     </Grid>
 </Page>
