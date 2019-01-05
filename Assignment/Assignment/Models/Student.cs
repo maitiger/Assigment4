@@ -26,10 +26,8 @@ namespace Assignment.Models
 
         public string Avartar { get; set; }
         [Required]
-
         public string Address { get; set; }
         [Required]
-
         public string Phone { get; set; }
         [DataType(DataType.Date)]
         [Required]

@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assignment\\Assignment\\Assignment.csproj",
+      "projectUniqueName": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assigment4\\Assignment\\Assignment\\Assignment.csproj",
       "projectName": "Assignment",
-      "projectPath": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assignment\\Assignment\\Assignment.csproj",
+      "projectPath": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assigment4\\Assignment\\Assignment\\Assignment.csproj",
       "packagesPath": "C:\\Users\\allth\\.nuget\\packages\\",
-      "outputPath": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assignment\\Assignment\\obj\\",
+      "outputPath": "D:\\Cac Thu Cac Thu\\ProjectNhom4\\Assigment4\\Assignment\\Assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

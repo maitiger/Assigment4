@@ -14,6 +14,7 @@ namespace Assignment.Models
         {
         }
         public DbSet<Assignment.Models.Student> Student { get; set; }
+        public DbSet<Assignment.Models.Account> Account { get; set; }
 
     }
 }
