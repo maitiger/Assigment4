@@ -9,6 +9,65 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://www.ccn.com/wp-content/uploads/2017/10/FPT.jpg" Opacity="0.7" />
+        </Grid.Background>
+        <SplitView x:Name="SplitVia" DisplayMode="CompactInline" IsPaneOpen="True" OpenPaneLength="200">
+
+            <SplitView.Pane>
+
+                <StackPanel Margin="6,50,10,20" >
+                    <TextBlock Text="MENU" FontSize="20" HorizontalAlignment="Center" Margin="-30,0,0,0" Foreground="#7ca8ef" FontWeight="ExtraBlack" SelectionChanged="TextBlock_SelectionChanged"/>
+
+                    <RadioButton Margin="0,30,0,20" Style="{ThemeResource TextBlockButtonStyle}" Tag="Home" HorizontalAlignment="Left" Click="RadioButton_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="World" Margin="0,0,15,0"/>
+                            <TextBlock Text="Home" SelectionChanged="TextBlock_SelectionChanged"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton Margin="0,0,0,20" Style="{ThemeResource TextBlockButtonStyle}" Tag="Register" HorizontalAlignment="Left" Click="RadioButton_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="Edit" Margin="0,0,15,0"/>
+                            <TextBlock Text="Edit Introduction"/>
+                        </StackPanel>
+
+                    </RadioButton>
+
+
+                    <RadioButton Margin="0,0,0,20" Style="{ThemeResource TextBlockButtonStyle}" Tag="MyAccount" HorizontalAlignment="Left" Click="RadioButton_Click" >
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="ContactInfo" Margin="0,0,15,0"/>
+                            <TextBlock Text="My Account Students"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton Margin="0,0,0,20" Style="{ThemeResource TextBlockButtonStyle}" Tag="Login" HorizontalAlignment="Left" Click="RadioButton_Click" >
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="Sort" Margin="0,0,15,0"/>
+                            <TextBlock Text="Log Out"/>
+                        </StackPanel>
+                    </RadioButton>
+
+
+                </StackPanel>
+
+            </SplitView.Pane>
+            <SplitView.Content>
+
+
+                <Frame x:Name="MyFrame"/>
+
+            </SplitView.Content>
+
+        </SplitView>
+
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" Width="48" Height="40" Click="Button_Click">
+            <StackPanel>
+                <Rectangle Width="20" Height="2" Margin="2" Fill="#7ca8ef"/>
+                <Rectangle Width="20" Height="2" Margin="2" Fill="#7ca8ef"/>
+                <Rectangle Width="20" Height="2" Margin="2" Fill="#7ca8ef"/>
+            </StackPanel>
+        </Button>
+
 
     </Grid>
 </Page>
