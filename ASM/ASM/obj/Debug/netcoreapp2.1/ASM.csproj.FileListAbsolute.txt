@@ -47,4 +47,4 @@ D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Details.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Edit.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Accounts\Index.g.cshtml.cs
-D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\ASM.csprojAssemblyReference.cache
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Debug\netcoreapp2.1\Razor\Views\Index\Index.g.cshtml.cs

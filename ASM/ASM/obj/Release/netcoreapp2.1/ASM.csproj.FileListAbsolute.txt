@@ -48,3 +48,6 @@ D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\Raz
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\Razor\Views\Subjects\Details.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\Razor\Views\Subjects\Edit.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\Razor\Views\Subjects\Index.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\Razor\Views\Index\Index.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\ASM.Properties.Resources.resources
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\ASM\ASM\obj\Release\netcoreapp2.1\ASM.csproj.GenerateResource.cache
