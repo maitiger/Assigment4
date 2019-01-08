@@ -14,6 +14,7 @@ namespace ASM.Data
         {
         }
         public DbSet<ASM.Models.Account> Account { get; set; }
+        public DbSet<MyCredential> MyCredential { get; set; }
         public DbSet<ASM.Models.Subject> Subject { get; set; }
         public DbSet<ASM.Models.Mark> Mark { get; set; }
     }
