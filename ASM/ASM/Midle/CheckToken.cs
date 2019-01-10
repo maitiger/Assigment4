@@ -12,7 +12,7 @@ namespace ASM.Midle
         public static IApplicationBuilder UseCheckToken(
            this IApplicationBuilder builder)
         {
-            return builder.UseMiddleware<Checktoken>;
+            return builder.UseMiddleware<Checktoken>();
         }
     }
     public class Checktoken

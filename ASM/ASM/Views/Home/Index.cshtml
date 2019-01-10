@@ -1,93 +1,73 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@using Microsoft.AspNetCore.Identity
+@using ASM.Models
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Đăng Nhập";
 }
 <div class="content">
+        <ul class="ca-menu" style="margin-top: 104px;">
+            <center>
+               
+                <li style="list-style:none;">
+                    
+                        <span class="ca-icon">Đăng Nhập</span>
+                        <div class="ca-content">
+                            <button onclick="myFunction()">
+                                <h3 class="ca-sub">Đăng Nhập Vào Tài Khoản Của Bạn</h3>
+                            </button>
+                        </div>
+                    
+                </li>
+                 
+            </center>
 
-    <ul class="ca-menu">
-        <li>
-            <a href="#">
-                <span class="ca-icon">F</span>
-                <div class="ca-content">
-                    <h2 class="ca-main">Exceptional Service</h2>
-                    <h3 class="ca-sub">Personalized to your needs</h3>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="ca-icon">H</span>
-                <div class="ca-content">
-                    <h2 class="ca-main">Creative Storytelling</h2>
-                    <h3 class="ca-sub">Advanced use of technology</h3>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="ca-icon" id="heart">N</span>
-                <div class="ca-content">
-                    <h2 class="ca-main">Infographical Education</h2>
-                    <h3 class="ca-sub">Understanding visually</h3>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="ca-icon">K</span>
-                <div class="ca-content">
-                    <h2 class="ca-main">Sophisticated Team</h2>
-                    <h3 class="ca-sub">Professionals in action</h3>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="ca-icon">L</span>
-                <div class="ca-content">
-                    <h2 class="ca-main">Unconditional Support</h2>
-                    <h3 class="ca-sub">24/7 for you needs</h3>
-                </div>
-            </a>
-        </li>
-    </ul>
+        </ul>
+        
 </div><!-- content -->
-
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
+<br />
+<div id="Login" style="display: none;"> <!-- đặt mặc định ẩn--> 
+    <form id="account" method="post" >
+        <h4>Use a local account to log in.</h4>
+        <hr>
+        <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+            <ul>
+                <li style="display:none"></li>
+            </ul>
+        </div>
+        <div class="form-group">
+            <label for="Input_Email">Email</label>
+            <input class="form-control" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Input_Email" name="Input.Email" value="">
+            <span class="text-danger field-validation-valid" data-valmsg-for="Input.Email" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group">
+            <label for="Input_Password">Password</label>
+            <input class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password">
+            <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-group">
+            <div class="checkbox">
+                <label for="Input_RememberMe">
+                    <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="Input_RememberMe" name="Input.RememberMe" value="true">
+                    Remember me?
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">Log in</button>
+        </div>
+        <div class="form-group">
+            <p>
+                <a id="forgot-password" href="/Identity/Account/ForgotPassword">Forgot your password?</a>
+            </p>
+            <p>
+                <a href="/Identity/Account/Register?returnUrl=%2F">Register as a new user</a>
+            </p>
+        </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KqYs2KVxzBBunHe6UWCr2k5P7qbyoCPc3KrWVow88ese_NJAqtGiAL3qqQSXYpUAvVcgwrqMUXDC4FXyABkuUmFqkrlF5LLlVym3yfVJuPdCJ1la9TvJ6-GeKIAJOjZgLKbmplYEsAsiGv_LYMnCsQ"><input name="Input.RememberMe" type="hidden" value="false">
+    </form>
 </div>
+
