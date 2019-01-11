@@ -54,7 +54,7 @@ using ASM.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 798, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "06515ddd0caf46f0a6ea5a32f7e3ffcb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "95b370f2167d43d6a4477c16f047841c", async() => {
                 BeginContext(41, 785, true);
                 WriteLiteral(@"
     <title>Creative CSS3 Animation Menus</title>
@@ -86,7 +86,7 @@ using ASM.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(835, 2917, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3dc473762d324318a0a9f37bac59bbc0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4daaaa68e6e240d9a3ca39c366e12fdf", async() => {
                 BeginContext(841, 2904, true);
                 WriteLiteral(@"
     <div class=""container"">
