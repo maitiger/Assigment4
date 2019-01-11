@@ -10,8 +10,8 @@ using Redo.Data;
 namespace Redo.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190111073802_Redo")]
-    partial class Redo
+    [Migration("20190111075445_Redo2")]
+    partial class Redo2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Redo.Data.Migrations
 {
-    public partial class Redo : Migration
+    public partial class Redo2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -47,3 +47,17 @@ D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Raz
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Details.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Edit.g.cshtml.cs
 D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Views\Subjects\Index.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\Cac Thu Cac Thu\ProjectNhom4\Assigment4\Redo\Redo\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
