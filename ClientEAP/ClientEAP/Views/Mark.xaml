@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="ClientApp.Views.Mark"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background = "{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <SearchBox x:Name="search" QueryChanged="search_QueryChanged"></SearchBox>
+            <ListBox Background="CornflowerBlue" x:Name="SearchlistBox" FontSize="26">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Foreground="White" Text="{Binding Name}" FontSize="24" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Page>

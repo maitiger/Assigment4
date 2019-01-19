@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="ClientApp.Views.Subject"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ClientApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!--<NavigationView x:Name="Nav_Menu" IsBackButtonVisible="Collapsed" ItemInvoked="Nav_Menu_ItemInvoked" Margin="0 12 0 0" IsTabStop="True" IsSettingsVisible="False" IsPaneToggleButtonVisible="False">
+            <NavigationView.Header>
+                <TextBlock x:Name="Content_Header" Style="{ThemeResource HeaderTextBlockStyle}"/>
+            </NavigationView.Header>
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Placeholder" Tag="MonHoc">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_MonHoc" SelectionChanged="TextBlock_SelectionChanged">Markup Language and JSON</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Placeholder" Tag="MonHoc">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_MonHoc" SelectionChanged="TextBlock_SelectionChanged_1">Application Programming</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Placeholder" Tag="MonHoc">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_MonHoc" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="128" SelectionChanged="TextBlock_SelectionChanged_2">Introduction to Big Data</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Placeholder" Tag="CaNhan">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_CaNhan" SelectionChanged="TextBlock_SelectionChanged_3">Windows Forms Programming</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Placeholder" Tag="LopHoc">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_LopHoc" SelectionChanged="TextBlock_SelectionChanged_4">Web Application Development</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Placeholder" Tag="MonHoc">
+                    <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Tag="Nav_MonHoc" SelectionChanged="TextBlock_SelectionChanged_5">Enterprise Application Programming</TextBlock>
+                </NavigationViewItem>
+            </NavigationView.MenuItems>
+            <Frame x:Name="contentFrame"></Frame>
+        </NavigationView>-->
+    </Grid>
+</Page>
